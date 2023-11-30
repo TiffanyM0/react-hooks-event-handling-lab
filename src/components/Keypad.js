@@ -2,8 +2,12 @@
 
 function Keypad (){
     return (
-        <div></div>
+        <div>
+            <input onChange={event => console.log('Entering password...')} type="password" />
+        </div>
     )
 }
 
+
 export default Keypad;
+
